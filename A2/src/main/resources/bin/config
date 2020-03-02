@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# configuration options for ${project.build.finalName}
+#
+
+RUN_OPTS="-cp lib/*:${project.build.finalName}.jar"
+JAVA_OPTS="-Xms1g -Xmx1g -XX:+UseNUMA"
+MAIN_CLASS="COSC121.A2.Server"
+DISPLAY_NAME="A2-0.0.1-SNAPSHOT"
+LOG_FILE="logs/server.log"
+PID_FILE="server.pid"
