@@ -1,6 +1,6 @@
 # COSC310-A02
 
-A chat bot that mimics a role of a friend to talk about favorite-food-related topics based on Ab.jar
+Based on Ab.jar: A chat bot that mimics a role of a friend to talk about favorite-food-related topics 
 ---
 A2 submission for UBC Okanagan COSC 310 2019 Winter session. Developed by Larry, Lily, Eric, and Athena. 
 
@@ -18,3 +18,6 @@ Let's run file named Chatbot.java in src/main/java
 ``
 to be filled out
 ``
+
+### More information on Ab.jar
+https://howtodoinjava.com/ai/java-aiml-chatbot-example/
