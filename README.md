@@ -20,4 +20,10 @@ to be filled out
 ``
 
 ### More information on Ab.jar
+
+Add the Ab.jar library to your application. In your Java files, use
+``
+import org.alicebot.ab.*;
+``
+
 https://howtodoinjava.com/ai/java-aiml-chatbot-example/
