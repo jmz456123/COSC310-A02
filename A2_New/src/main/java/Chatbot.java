@@ -15,7 +15,7 @@ public class Chatbot {
 
 	public static void main(String[] args) {
 		try {
-			// update the aiml library so that more possible conversations can be added
+			// update the aiml library so that more conversations can be made available
 			Scanner in = new Scanner(System.in);
 			System.out.print("Update templates? (Yes/No): ");
 			if (in.next().equalsIgnoreCase("Yes"))
@@ -27,11 +27,11 @@ public class Chatbot {
 
 			// the trace mode to trace the current status during the conversation
 			// you may turn on it by change the TRACE_MODE value to TRUE
-//=======
-			System.out.println("ResourcesPath:"+resourcesPath);
-			
-			//This code is able to trace and print how each info is processed during the conversation
-			//by setting TRACE_MODE value to TRUE, the info will be printed
+			System.out.println("ResourcesPath:" + resourcesPath);
+
+			// This code is able to trace and print how each info is processed during the
+			// conversation
+			// by setting TRACE_MODE value to TRUE, the info will be printed
 
 			MagicBooleans.trace_mode = TRACE_MODE;
 
@@ -55,9 +55,9 @@ public class Chatbot {
 				textLine = IOUtils.readInputTextLine();// get uses input
 
 				if ((textLine == null) || (textLine.length() < 1))
-				textLine = IOUtils.readInputTextLine();//get user input
-				
-				if ((textLine == null) || (textLine.length() < 1)) 
+					textLine = IOUtils.readInputTextLine();// get user input
+
+				if ((textLine == null) || (textLine.length() < 1))
 					textLine = MagicStrings.null_input; // if textLine is empty, testLine = NORESP
 
 				// if enter q, exit, if enter wq,

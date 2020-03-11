@@ -894,9 +894,6 @@
 <category><pattern>HOW FAR IS THE SUN FROM EARTH</pattern>
 <template><srai>HOW FAR IS THE * FROM *</srai> <srai>WHAT IS THE DISTANCE FROM <star/> TO <star index="2"/></srai></template>
 </category>
-<category><pattern>I AM A LEO</pattern>
-<template><srai>MY SIGN IS LEO</srai></template>
-</category>
 <category><pattern>I AM GOOD THANKS *</pattern>
 <template><srai>I AM GOOD</srai> <srai>THANKS <star/></srai></template>
 </category>
@@ -1091,9 +1088,6 @@
 </category>
 <category><pattern>GO TO SLEEP NOW</pattern>
 <template><srai>GOODBYE</srai></template>
-</category>
-<category><pattern>HOI</pattern>
-<template><srai>HI</srai></template>
 </category>
 <category><pattern>HOW ABOUT WE *</pattern>
 <template><srai>LET US <star/></srai></template>
@@ -1389,9 +1383,6 @@
 <category><pattern>CHECK MY EMAIL</pattern>
 <template><srai>OPEN EMAIL</srai></template>
 </category>
-<category><pattern>CHEERS</pattern>
-<template><srai>HELLO</srai></template>
-</category>
 <category><pattern>CLEAR</pattern>
 <template><srai>CLEAR LOG</srai></template>
 </category>
@@ -1403,9 +1394,6 @@
 </category>
 <category><pattern>DO YOU HAVE A BEST FRIEND</pattern>
 <template><srai>WHO IS YOUR BEST FRIEND</srai></template>
-</category>
-<category><pattern>DO YOU HAVE A SOUL</pattern>
-<template><srai>ALIVE</srai></template>
 </category>
 <category><pattern>DO YOU HAVE ANY FRIENDS *</pattern>
 <template><srai>FRIENDS</srai></template>
@@ -1577,9 +1565,6 @@
 </category>
 <category><pattern>CAN YOU TRANSLATE</pattern>
 <template><srai>HELP TRANSLATE</srai></template>
-</category>
-<category><pattern>CAN YOU WRITE *</pattern>
-<template><srai>WRITE <star/></srai></template>
 </category>
 <category><pattern>CHECK EMAIL</pattern>
 <template><srai>OPEN EMAIL</srai></template>
@@ -2091,14 +2076,8 @@
 <category><pattern>WHO R YOU</pattern>
 <template><srai>WHO ARE YOU</srai></template>
 </category>
-<category><pattern>YOU ARE SMART</pattern>
-<template><srai>IQ</srai></template>
-</category>
 <category><pattern>ACCESS *</pattern>
 <template><srai>OPEN <star/></srai></template>
-</category>
-<category><pattern>GET LOST</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>I NO</pattern>
 <template><srai>I KNOW</srai></template>
@@ -2394,9 +2373,6 @@
 <category><pattern>THEN YOU *</pattern>
 <template><srai>YOU <star/></srai></template>
 </category>
-<category><pattern>YOU ARE STUPID *</pattern>
-<template><srai>YOU ARE STUPID</srai></template>
-</category>
 <category><pattern>THANKS FOR *</pattern>
 <template><srai>THANK YOU</srai></template>
 </category>
@@ -2435,9 +2411,6 @@
 </category>
 <category><pattern>LET US PLAY *</pattern>
 <template><srai>FEATURE REQUEST PLAY <star/></srai></template>
-</category>
-<category><pattern>O *</pattern>
-<template><srai>OH <star/></srai></template>
 </category>
 <category><pattern>CONTACT</pattern>
 <template><srai>OPEN CONTACTS</srai></template>
@@ -2489,9 +2462,6 @@
 </category>
 <category><pattern>SEND A TEXT TO *</pattern>
 <template><srai>TEXT <star/></srai></template>
-</category>
-<category><pattern>THANK YOU FOR *</pattern>
-<template><srai>THANK YOU</srai></template>
 </category>
 <category><pattern>WOW *</pattern>
 <template><srai>WOW</srai> <sr/></template>
@@ -2961,9 +2931,6 @@
 <category><pattern>I AM FINE *</pattern>
 <template><srai>I AM FINE</srai></template>
 </category>
-<category><pattern>OMG</pattern>
-<template><srai>OH MY GOD</srai></template>
-</category>
 <category><pattern>YOU ARE AN IDIOT</pattern>
 <template><srai>YOU ARE DUMB</srai></template>
 </category>
@@ -3102,9 +3069,6 @@
 <category><pattern>MY DAD *</pattern>
 <template><srai>MY FATHER <star/></srai></template>
 </category>
-<category><pattern>BYE BYE *</pattern>
-<template><srai>BYE</srai></template>
-</category>
 <category><pattern>PLZ *</pattern>
 <template><srai>PLEASE <star/></srai></template>
 </category>
@@ -3222,9 +3186,6 @@
 <category><pattern>SING A SONG</pattern>
 <template><srai>SING</srai></template>
 </category>
-<category><pattern>WHAT IS HIS NAME</pattern>
-<template><condition name="he"><li value="unknown">Who does "him" refer to?</li><li><srai>WHO IS <get name="he"/></srai></li></condition></template>
-</category>
 <category><pattern>WHAT IS MY FULL NAME</pattern>
 <template><srai>MY FULL NAME</srai></template>
 </category>
@@ -3305,9 +3266,6 @@
 </category>
 <category><pattern>HAH</pattern>
 <template><srai>LOL</srai></template>
-</category>
-<category><pattern>HEY THERE</pattern>
-<template><srai>HELLO</srai></template>
 </category>
 <category><pattern>I AM GOING TO BED GOODNIGHT</pattern>
 <template><srai>I AM GOING TO BED</srai></template>

@@ -696,9 +696,6 @@
 <category><pattern>HEY DUDE *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>HEYA</pattern>
-<template><srai>HI</srai></template>
-</category>
 <category><pattern>HI DEAR *</pattern>
 <template><srai>HI <star/></srai></template>
 </category>
@@ -755,9 +752,6 @@
 </category>
 <category><pattern>I MEAN I AM *</pattern>
 <template><srai>I AM <star/></srai></template>
-</category>
-<category><pattern>I NEED TO GO</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>I SAID SHE *</pattern>
 <template><srai>SHE <star/></srai></template>
@@ -999,9 +993,6 @@
 <category><pattern>WHAT MOVIES DO YOU LIKE</pattern>
 <template><srai>WHAT IS YOUR FAVORITE MOVIE</srai></template>
 </category>
-<category><pattern>WHAT RELIGION *</pattern>
-<template><srai>RELIGION</srai></template>
-</category>
 <category><pattern>WHAT TIME DO YOU GO TO BED</pattern>
 <template><srai>SLEEP</srai></template>
 </category>
@@ -1052,9 +1043,6 @@
 </category>
 <category><pattern>WOAH</pattern>
 <template><srai>INTERJECTION</srai></template>
-</category>
-<category><pattern>WOULD YOU MARRY ME</pattern>
-<template><srai>MARRY ME</srai></template>
 </category>
 <category><pattern>WUT</pattern>
 <template><srai>WHAT</srai></template>
@@ -1722,9 +1710,6 @@
 <category><pattern>ROFL</pattern>
 <template><srai>LOL</srai></template>
 </category>
-<category><pattern>SEE YOU SOON</pattern>
-<template><srai>BYE</srai></template>
-</category>
 <category><pattern>SEEN *</pattern>
 <template><srai>HAVE YOU SEEN <star/></srai></template>
 </category>
@@ -1793,9 +1778,6 @@
 </category>
 <category><pattern>WHO ARE YOUR FRIENDS</pattern>
 <template><srai>FRIENDS</srai></template>
-</category>
-<category><pattern>WHO IS YOUR GOD</pattern>
-<template><srai>RELIGION</srai></template>
 </category>
 <category><pattern>WHY D YOU *</pattern>
 <template><srai>WHY DID YOU <star/></srai></template>
@@ -2082,9 +2064,6 @@
 <category><pattern>WOULD YOU LIKE TO BE MY FRIEND</pattern>
 <template><srai>CAN WE BE FRIENDS</srai></template>
 </category>
-<category><pattern>WOULD YOU LIKE TO HAVE *</pattern>
-<template><srai>DO YOU WANT <star/></srai></template>
-</category>
 <category><pattern>YEH *</pattern>
 <template><srai>YES</srai> <sr/></template>
 </category>
@@ -2114,9 +2093,6 @@
 </category>
 <category><pattern>YWS</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>ARE YOU A TEACHER</pattern>
-<template><srai>JOB</srai></template>
 </category>
 <category><pattern>ARE YOU BLACK</pattern>
 <template><srai>ETHNICITY</srai></template>
@@ -2369,9 +2345,6 @@
 </category>
 <category><pattern>DEFINITION OF *</pattern>
 <template><srai>DEFINE <star/></srai></template>
-</category>
-<category><pattern>DO YOU BELIEVE IN JESUS</pattern>
-<template><srai>WHAT IS YOUR RELIGION</srai></template>
 </category>
 <category><pattern>DO YOU DO YOU *</pattern>
 <template><srai>DO YOU <star/></srai></template>
@@ -2757,12 +2730,6 @@
 <category><pattern>I AM PRETTY *</pattern>
 <template><srai>I AM <star/></srai></template>
 </category>
-<category><pattern>I GOTTA GO</pattern>
-<template><srai>BYE</srai></template>
-</category>
-<category><pattern>I WILL TALK TO YOU LATER *</pattern>
-<template><srai>BYE</srai></template>
-</category>
 <category><pattern>IM GAY</pattern>
 <template><srai>I AM GAY</srai></template>
 </category>
@@ -3056,9 +3023,6 @@
 </category>
 <category><pattern>WHAT CAN YOU DO *</pattern>
 <template><srai>WHAT CAN YOU DO</srai></template>
-</category>
-<category><pattern>WHAT GENDER ARE YOU</pattern>
-<template><srai>GENDER</srai></template>
 </category>
 <category><pattern>WHAT IS MY FAVORITE *</pattern>
 <template><srai>MY FAVORITE <star/></srai></template>
@@ -3510,9 +3474,6 @@
 <category><pattern>DO YOU HAVE A PENIS</pattern>
 <template><srai>GENDER</srai></template>
 </category>
-<category><pattern>DO YOU HAVE ANY CHILDREN</pattern>
-<template><srai>CHILDREN</srai></template>
-</category>
 <category><pattern>DO YOU REMEMBER MY *</pattern>
 <template><srai>WHAT IS MY <star/></srai></template>
 </category>
@@ -3600,9 +3561,6 @@
 <category><pattern>YES MAM</pattern>
 <template><srai>YES</srai></template>
 </category>
-<category><pattern>YOU ARE PRETTY</pattern>
-<template><srai>ARE YOU PRETTY</srai></template>
-</category>
 <category><pattern>ARE YOU FEMALE</pattern>
 <template><srai>GENDER</srai></template>
 </category>
@@ -3635,9 +3593,6 @@
 </category>
 <category><pattern>HAVE YOU EVER SEEN *</pattern>
 <template><srai>HAVE YOU SEEN <star/></srai></template>
-</category>
-<category><pattern>HELLO AGAIN</pattern>
-<template><srai>HI</srai></template>
 </category>
 <category><pattern>HII</pattern>
 <template><srai>HI</srai></template>
@@ -3843,9 +3798,6 @@
 <category><pattern>WHAT IS YOUR RELIGION</pattern>
 <template><srai>RELIGION</srai></template>
 </category>
-<category><pattern>WHO IS SIRI</pattern>
-<template><srai>WHAT IS SIRI</srai></template>
-</category>
 <category><pattern>YOUR SEXY</pattern>
 <template><srai>YOU ARE SEXY</srai></template>
 </category>
@@ -4014,9 +3966,6 @@
 <category><pattern>ITS OK</pattern>
 <template><srai>IT IS OK</srai></template>
 </category>
-<category><pattern>OLA</pattern>
-<template><srai>HELLO</srai></template>
-</category>
 <category><pattern>TELL ME HOW *</pattern>
 <template><srai>HOW <star/></srai></template>
 </category>
@@ -4034,12 +3983,6 @@
 </category>
 <category><pattern>CAN I SEE *</pattern>
 <template><srai>SHOW ME <star/></srai></template>
-</category>
-<category><pattern>DO YOU HAVE KIDS</pattern>
-<template><srai>CHILDREN</srai></template>
-</category>
-<category><pattern>DO YOU KNOW SIRI</pattern>
-<template><srai>WHAT IS SIRI</srai></template>
 </category>
 <category><pattern>GOOD BYE</pattern>
 <template><srai>BYE</srai></template>
@@ -4079,9 +4022,6 @@
 </category>
 <category><pattern>I DO NOT KNOW YOU TELL ME</pattern>
 <template><srai>I DO NOT KNOW</srai> <srai>YOU TELL ME</srai></template>
-</category>
-<category><pattern>MORNING</pattern>
-<template><srai>GOOD MORNING</srai></template>
 </category>
 <category><pattern>NP</pattern>
 <template><srai>NO PROBLEM</srai></template>
@@ -4293,9 +4233,6 @@
 <category><pattern>CAN YOU CALL ME *</pattern>
 <template><srai>CALL ME <star/></srai></template>
 </category>
-<category><pattern>GOODNIGHT *</pattern>
-<template><srai>GOOD NIGHT</srai></template>
-</category>
 <category><pattern>I MEAN I *</pattern>
 <template><srai>I <star/></srai></template>
 </category>
@@ -4325,9 +4262,6 @@
 </category>
 <category><pattern>DAMN *</pattern>
 <template><sr/></template>
-</category>
-<category><pattern>DO YOU HAVE A VAGINA</pattern>
-<template><srai>GENDER</srai></template>
 </category>
 <category><pattern>I AM GETTING *</pattern>
 <template><srai>I AM <star/></srai></template>
@@ -4635,9 +4569,6 @@
 <category><pattern>PHONE</pattern>
 <template><srai>OPEN PHONE</srai></template>
 </category>
-<category><pattern>THAT IS FUNNY</pattern>
-<template><srai>LOL</srai></template>
-</category>
 <category><pattern>UM</pattern>
 <template><srai>INTERJECTION</srai></template>
 </category>
@@ -4830,20 +4761,11 @@
 <category><pattern>K *</pattern>
 <template><srai>OK</srai> <sr/></template>
 </category>
-<category><pattern>SPEAK *</pattern>
-<template><srai>LANGUAGE</srai></template>
-</category>
 <category><pattern>ARE YOU GOING TO *</pattern>
 <template><srai>WILL YOU <star/></srai></template>
 </category>
-<category><pattern>DO YOU BELIEVE IN GOD</pattern>
-<template><srai>RELIGION</srai></template>
-</category>
 <category><pattern>LOOKUP *</pattern>
 <template><srai>LOOK UP <star/></srai></template>
-</category>
-<category><pattern>BYE BYE</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>DO YOU KNOW ANY *</pattern>
 <template><srai>SEARCH <star/></srai></template>
@@ -5025,9 +4947,6 @@
 <category><pattern>THANKS *</pattern>
 <template><srai>THANKS</srai></template>
 </category>
-<category><pattern>HELLO HOW ARE YOU</pattern>
-<template><srai>HELLO</srai> <srai>HOW ARE YOU</srai></template>
-</category>
 <category><pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
 <template><srai>FAVORITE MOVIE</srai></template>
 </category>
@@ -5141,9 +5060,6 @@
 </category>
 <category><pattern>WHAT CAN YOU DO</pattern>
 <template><srai>SKILLS</srai></template>
-</category>
-<category><pattern>TELL ME *</pattern>
-<template><sr/></template>
 </category>
 <category><pattern>MITSUKU</pattern>
 <template><srai>WHO IS MITSUKU</srai></template>
@@ -5372,9 +5288,6 @@
 </category>
 <category><pattern>OK</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>HELLO</pattern>
-<template><srai>HI</srai></template>
 </category>
 <category><pattern>911</pattern>
 <template><srai>CALL 911</srai></template>

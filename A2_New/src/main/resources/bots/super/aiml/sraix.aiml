@@ -384,9 +384,6 @@
 <category><pattern>WHO HAS THE *</pattern>
 <template><sraix>WHO HAS THE <star/></sraix></template>
 </category>
-<category><pattern>WHO ARE *</pattern>
-<template><sraix>WHO ARE <star/></sraix></template>
-</category>
 <category><pattern>WHO ARE THE *</pattern>
 <template><sraix>WHO ARE THE <star/></sraix></template>
 </category>
@@ -413,9 +410,6 @@
 </category>
 <category><pattern>WHO IS DOCTOR *</pattern>
 <template><sraix>WHO IS DOCTOR <star/></sraix></template>
-</category>
-<category><pattern>WHO IS DOCTOR WALLACE</pattern>
-<template><sraix>WHO IS DOCTOR WALLACE</sraix></template>
 </category>
 <category><pattern>WHO IS A *</pattern>
 <template><sraix>WHO IS A <star/></sraix></template>
@@ -467,9 +461,6 @@
 </category>
 <category><pattern>WHO IS THE GREATEST *</pattern>
 <template><sraix>WHO IS THE GREATEST <star/></sraix></template>
-</category>
-<category><pattern>WHO IS THE MOST *</pattern>
-<template><sraix>WHO IS THE MOST <star/></sraix></template>
 </category>
 <category><pattern>WHO IS TONY *</pattern>
 <template><sraix>WHO IS TONY <star/></sraix></template>
@@ -695,9 +686,6 @@
 <category><pattern>WHEN *</pattern>
 <template><sraix>WHEN <star/></sraix></template>
 </category>
-<category><pattern>WHEN IS *</pattern>
-<template><sraix>WHEN IS <star/></sraix></template>
-</category>
 <category><pattern>WHEN IS THE *</pattern>
 <template><sraix>WHEN IS THE <star/></sraix></template>
 </category>
@@ -715,9 +703,6 @@
 </category>
 <category><pattern>WHEN DID *</pattern>
 <template><sraix>WHEN DID <star/></sraix></template>
-</category>
-<category><pattern>WHEN DOES *</pattern>
-<template><sraix>WHEN DOES <star/></sraix></template>
 </category>
 <category><pattern>WHEN WAS *</pattern>
 <template><sraix>WHEN WAS <star/></sraix></template>
@@ -1589,9 +1574,6 @@
 </category>
 <category><pattern>HOW CAN I GO TO *</pattern>
 <template><sraix>HOW CAN I GO TO <star/></sraix></template>
-</category>
-<category><pattern>HOW CAN I *</pattern>
-<template><sraix>HOW CAN I <star/></sraix></template>
 </category>
 <category><pattern>HOW CAN I KILL *</pattern>
 <template><sraix>HOW CAN I KILL <star/></sraix></template>
