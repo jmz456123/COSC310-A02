@@ -1,5 +1,4 @@
 
-
 import java.io.File;
 
 import org.alicebot.ab.Bot;
@@ -15,23 +14,25 @@ public class AddAiml {
 
 			String resourcesPath = getResourcesPath();
 			System.out.println(resourcesPath);
-			
-			//the trace mode to trace the current status during the conversation
-			//you may turn on it by change the TRACE_MODE value to TRUE
-			MagicBooleans.trace_mode = TRACE_MODE;
-			
-			//create a chatbot, name is "super", and specify a root path for the bot's files
-			//The constructor method will load all the bot's categories, substitutions, configuration files, and set and map definitions.
-			Bot bot = new Bot("super", resourcesPath);
-			
-			//write AIML Files
-			bot.writeAIMLFiles();
 
+			// the trace mode to trace the current status during the conversation
+			// you may turn on it by change the TRACE_MODE value to TRUE
+			MagicBooleans.trace_mode = TRACE_MODE;
+
+			// create a chatbot, name is "super", and specify a root path for the bot's
+			// files
+			// The constructor method will load all the bot's categories, substitutions,
+			// configuration files, and set and map definitions.
+			Bot bot = new Bot("super", resourcesPath);
+
+			// write AIML Files
+			bot.writeAIMLFiles();
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
+
 	// get the resources path
 	private static String getResourcesPath() {
 		File currDir = new File(".");

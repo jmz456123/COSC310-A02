@@ -1,6 +1,6 @@
 
-
 import java.io.File;
+import java.util.Scanner;
 
 import org.alicebot.ab.Bot;
 import org.alicebot.ab.Chat;
@@ -15,54 +15,61 @@ public class Chatbot {
 
 	public static void main(String[] args) {
 		try {
+			// update the aiml library so that more possible conversations can be added
+			Scanner in = new Scanner(System.in);
+			System.out.print("Update templates? (Yes/No): ");
+			if (in.next().equalsIgnoreCase("Yes"))
+				AddAiml.main(null);
 
 			String resourcesPath = getResourcesPath();
-			System.out.println("ResourcesPath:"+resourcesPath);
-			
-			//the trace mode to trace the current status during the conversation
-			//you may turn on it by change the TRACE_MODE value to TRUE
+			System.out.println("ResourcesPath:" + resourcesPath);
+
+			// the trace mode to trace the current status during the conversation
+			// you may turn on it by change the TRACE_MODE value to TRUE
 			MagicBooleans.trace_mode = TRACE_MODE;
-			
-			//create a chatbot, name is "super", and specify a root path for the bot's files
-			//The constructor method will load all the bot's categories, substitutions, configuration files, and set and map definitions.
+
+			// create a chatbot, name is "super", and specify a root path for the bot's
+			// files
+			// The constructor method will load all the bot's categories, substitutions,
+			// configuration files, and set and map definitions.
 			Bot bot = new Bot("super", resourcesPath);
-			
-			Chat chatSession = new Chat(bot);//Create a client chat session
-			
+
+			Chat chatSession = new Chat(bot);// Create a client chat session
+
 			// show the stats of bot
-			// ex.28545 nodes 22303 singletons 4848 leaves 0 shortcuts 1394 n-ary 28544 branches 0.99996495 average branching 
+			// ex.28545 nodes 22303 singletons 4848 leaves 0 shortcuts 1394 n-ary 28544
+			// branches 0.99996495 average branching
 			bot.brain.nodeStats();
-			
+
 			String textLine = "";
 
-			while(true) {
+			while (true) {
 				System.out.print("Human : ");
-				textLine = IOUtils.readInputTextLine();//get uses input
-				
-				if ((textLine == null) || (textLine.length() < 1)) 
+				textLine = IOUtils.readInputTextLine();// get uses input
+
+				if ((textLine == null) || (textLine.length() < 1))
 					textLine = MagicStrings.null_input; // if textLine is empty, testLine = NORESP
-					
-				// if enter q, exit, if enter wq, 
+
+				// if enter q, exit, if enter wq,
 				if (textLine.equals("q")) {
 					System.exit(0);
-				} 
-				else if (textLine.equals("wq")) {
+				} else if (textLine.equals("wq")) {
 					bot.writeQuit();
 					System.exit(0);
-				} 
-				else {
+				} else {
 					String request = textLine;
-					if (MagicBooleans.trace_mode)//if trace_mode is true, return the status
-						System.out.println("STATE=" + request + ":THAT=" + ((History) chatSession.thatHistory.get(0)).get(0) + ":TOPIC=" + chatSession.predicates.get("topic"));
-					
-					String response = chatSession.multisentenceRespond(request);//get bot's replies
-					
-					
+					if (MagicBooleans.trace_mode)// if trace_mode is true, return the status
+						System.out.println(
+								"STATE=" + request + ":THAT=" + ((History) chatSession.thatHistory.get(0)).get(0)
+										+ ":TOPIC=" + chatSession.predicates.get("topic"));
+
+					String response = chatSession.multisentenceRespond(request);// get bot's replies
+
 					while (response.contains("&lt;"))
 						response = response.replace("&lt;", "<");
 					while (response.contains("&gt;"))
 						response = response.replace("&gt;", ">");
-					System.out.println("Robot : " + response);//print bot's replies
+					System.out.println("Robot : " + response);// print bot's replies
 				}
 			}
 		} catch (Exception e) {
