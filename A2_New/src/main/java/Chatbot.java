@@ -22,10 +22,17 @@ public class Chatbot {
 				AddAiml.main(null);
 
 			String resourcesPath = getResourcesPath();
+
 			System.out.println("ResourcesPath:" + resourcesPath);
 
 			// the trace mode to trace the current status during the conversation
 			// you may turn on it by change the TRACE_MODE value to TRUE
+//=======
+			System.out.println("ResourcesPath:"+resourcesPath);
+			
+			//This code is able to trace and print how each info is processed during the conversation
+			//by setting TRACE_MODE value to TRUE, the info will be printed
+
 			MagicBooleans.trace_mode = TRACE_MODE;
 
 			// create a chatbot, name is "super", and specify a root path for the bot's
@@ -48,6 +55,9 @@ public class Chatbot {
 				textLine = IOUtils.readInputTextLine();// get uses input
 
 				if ((textLine == null) || (textLine.length() < 1))
+				textLine = IOUtils.readInputTextLine();//get user input
+				
+				if ((textLine == null) || (textLine.length() < 1)) 
 					textLine = MagicStrings.null_input; // if textLine is empty, testLine = NORESP
 
 				// if enter q, exit, if enter wq,
