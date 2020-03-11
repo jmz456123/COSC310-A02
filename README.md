@@ -3,13 +3,15 @@
 Based on Ab.jar: A chat bot that mimics a role of a friend to talk about favorite-food-related topics 
 ---
 A2 submission for UBC Okanagan COSC 310 2019 Winter session. Developed by Larry, Lily, Eric, and Athena. 
+Libarary used is Ab.jar. also referred to as Alicebot, originally composed by Richard Wallace.
+You can find more info on the amiml documents at Dr. Wallace's GitHub account https://github.com/drwallace/aiml-en-us-foundation-alice
 
 ## Quick Start
 
 ### Requirements and Installation
 
 The project is based on java 8.
-Download all the files in the repository. Then, in your environment, import maven project, and select the A2 file from the repository.
+Download all the files in the repository. Then, in your IDE, import a maven project, and select the file: A2_new from the repository.
 
 ### Example Usage
 
