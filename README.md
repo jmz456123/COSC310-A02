@@ -3,7 +3,7 @@
 Based on Ab.jar: A chat bot that mimics a role of a friend to talk about favorite-food-related topics 
 ---
 A2 submission for UBC Okanagan COSC 310 2019 Winter session. Developed by Larry, Lily, Eric, and Athena. 
-Libarary used is Ab.jar. also referred to as Alicebot, originally composed by Richard Wallace.
+Library used is Ab.jar. also referred to as Alicebot, originally composed by Richard Wallace.
 You can find more info on the amiml documents at Dr. Wallace's GitHub account https://github.com/drwallace/aiml-en-us-foundation-alice
 
 ## Quick Start
@@ -15,17 +15,18 @@ Download all the files in the repository. Then, in your IDE, import a maven proj
 
 ### Example Usage
 
-Let's run file named Chatbot.java in src/main/java
+Let's run file named Chatbot.java in src/main/java, you will see the following
+``
+Human:
+``
 
-``
-to be filled out
-``
+Type in words to communicate with the robot.
 
 ### More information on Ab.jar
 
-Add the Ab.jar library to your application. In your Java files, use
+Add the Ab.jar library to your own application. In your Java files, use
 ``
 import org.alicebot.ab.*;
 ``
-grammar on https://docs.google.com/document/d/1DWHiOOcda58CflDZ0Wsm1CgP3Es6dpicb4MBbbpwzEk/pub
+grammar of AIML files on https://docs.google.com/document/d/1DWHiOOcda58CflDZ0Wsm1CgP3Es6dpicb4MBbbpwzEk/pub
 https://howtodoinjava.com/ai/java-aiml-chatbot-example/
