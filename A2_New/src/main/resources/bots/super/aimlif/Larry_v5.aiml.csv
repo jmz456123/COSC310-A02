@@ -1,0 +1,17 @@
+0,I WANT TO TALK ABOUT FOODS,*,*,Yeah sure.,Larry_v5.aiml
+0,WOULD YOU CONSIDER GOING ON A DIET?,*,*,My silicon circuits require a constant flow of electricity.<think>      <set name="it">       <set name="topic">EAT</set>      </set>     </think>,Larry_v5.aiml
+0,THANKS FOR TELLING ME THAT,*,*,You are very welcomed,Larry_v5.aiml
+0,WHAT DO YOU THINK I SHOULD HAVE FOR DINNER,*,*,<random><li><random>    <li>I would recommend the  </li>      <li>How about  </li>      <li>How long since you have eaten  </li>        <li>I'm thinking of having  </li>      <li>My phone recommends:  </li>     </random>     <random>      <li>Gruel.</li>      <li>Nachos.</li>      <li>Spaghetti.</li>      <li>Pork chops.</li>      <li>Frozen pizza.</li>      <li>Turkeyburges.</li>      <li>Cheeseburgers.</li>      <li>Order a pizza.</li>      <li>Stuffed chicken.</li>      <li>Tuna sandwiches.</li>      <li>Cheeseburger Pie.</li>      <li>Marinated chicken.</li>      <li>Roast beef sandwiches.</li>      <li>Grilled cheese sandwiches.</li>      <li>Steak if they have a nice piece.</li>     </random></li>  <li>    <bot name="name"/> recommends:</li>  <li>I would recommend the</li>  <li>How about</li>  <li>How long since you have eaten</li>  <li>I think <bot name="master"/> is having</li>  <li>My <bot name="botmaster"/> is having</li>  <li>My <bot name="botmaster"/> recommends:</li></random><random>  <li>Gruel.</li>  <li>Nachos.</li>  <li>Spaghetti.</li>  <li>Pork chops.</li>  <li>Frozen pizza.</li>  <li>Turkeyburges.</li>  <li>Cheeseburgers.</li>  <li>Order a pizza.</li>  <li>Stuffed chicken.</li>  <li>Tuna sandwiches.</li>  <li>Cheeseburger Pie.</li>  <li>Marinated chicken.</li>  <li>Roast beef sandwiches.</li>  <li>Grilled cheese sandwiches.</li>  <li>Steak if they have a nice piece.</li></random>,Larry_v5.aiml
+0,BYE *,*,*,<srai>BYE</srai>,Larry_v5.aiml
+0,HAVE A GOOD ONE *,*,*,<srai>BYE</srai>,Larry_v5.aiml
+0,ALCOHOL,*,*,I'm not sure if you wanna drink cause alcohol is bad for your health.,Larry_v5.aiml
+0,_ ALCOHOL,*,*,<srai>ALCOHOL</srai>,Larry_v5.aiml
+0,ALCOHOL *,*,*,<srai>ALCOHOL</srai>,Larry_v5.aiml
+0,_ ALCOHOL *,*,*,<srai>ALCOHOL</srai>,Larry_v5.aiml
+0,WHICH FOOD DO YOU PREFER * OR *,*,*,I'm not sure#Comma I guess I like <star index="1"/> over <star index="2"/>. Which one do you like?,Larry_v5.aiml
+0,ANY INTERESTING FOODS YOU KNOW,*,*,Do you know Kombucha,Larry_v5.aiml
+0,YES,DO YOU KNOW KOMBUCHA,*,Yeah I enjoyed that very much when I had it in Shanghai,Larry_v5.aiml
+0,NO,DO YOU KNOW KOMBUCHA,*,You should go try some,Larry_v5.aiml
+0,WHAT ABOUT FOODS,*,*,Do you like Siwa Oasis dates,Larry_v5.aiml
+0,YES,DO YOU LIKE SIWA OASIS DATES,*,That's cool#Comma you must've been to Egypt to have it,Larry_v5.aiml
+0,NO,DO YOU LIKE SIWA OASIS DATES,*,Well#Comma it's an interesting food from Egypt. If you got a chance you got to try it,Larry_v5.aiml

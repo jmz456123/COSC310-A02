@@ -1500,9 +1500,6 @@
 <category><pattern>YIPPEE</pattern>
 <template><srai>YAY</srai></template>
 </category>
-<category><pattern>YOU ARE NOT SMART</pattern>
-<template><srai>YOU ARE DUMB</srai></template>
-</category>
 <category><pattern>YOU ARE WRONG *</pattern>
 <template><srai>YOU ARE WRONG</srai> <sr/></template>
 </category>
@@ -2936,9 +2933,6 @@
 </category>
 <category><pattern>FO SHIZZLE</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>GOSH *</pattern>
-<template><srai>GOSH</srai> <sr/></template>
 </category>
 <category><pattern>HI BABY</pattern>
 <template><srai>HI</srai></template>
@@ -4793,9 +4787,6 @@
 </category>
 <category><pattern>OF COURSE</pattern>
 <template><srai>YES</srai></template>
-</category>
-<category><pattern>BYE *</pattern>
-<template><srai>BYE</srai></template>
 </category>
 <category><pattern>WAT</pattern>
 <template><srai>WHAT</srai></template>
