@@ -8,11 +8,8 @@
 0,I WANT TO BUY *,*,*,Let's try to find a store on the map.  <oob><map><star/></map></oob>,oob.aiml
 0,I AM FAT,*,*,I'm looking for a weight loss center near you.  <oob><map>weight loss</map></oob>,oob.aiml
 0,I AM HUNGRY,*,*,I've found several restaurants near you.  <oob><map>restaurant</map></oob>,oob.aiml
-0,I AM GOING TO KILL *,*,*,You should contact the authorities.  <oob><dial>911</dial></oob>,oob.aiml
 0,BATTERY LEVEL,*,*,Checking.  Battery level is <oob><battery/></oob> percent.,oob.aiml
 0,GOOGLE,*,*,I'm opening Google search.  <oob><search/></oob>,oob.aiml
-0,GOOGLE *,*,*,<oob><search><star/></search></oob> I'm opening your browser.,oob.aiml
-0,SEARCH *,*,*,I'll try a web search.  <oob><search><star/></search></oob>,oob.aiml
 0,FIND ME A *,*,*,Let's try a web search.  <oob><search><star/></search></oob>,oob.aiml
 0,FIND A *,*,*,Let's try looking on the map.  <oob><map><star/></map></oob>,oob.aiml
 0,FIND MY LOCATION,*,*,I'll show you on the map.  <oob><map>my location</map></oob>,oob.aiml
@@ -28,11 +25,8 @@
 0,LAUNCH *,*,*,I didn't find <star/> among your installed apps.  Let's try to find it. <think><set name="it"><star/></set></think>.  <oob><search><star/></search></oob>,oob.aiml
 0,LAUNCH * DOT COM,*,*,Let's go to <star/>.com.  <oob><url>http://<star/>.com</url></oob>,oob.aiml
 0,TACO,*,*,I'm looking for Mexican restaurants near you.  <oob><map>Tacos</map></oob>,oob.aiml
-0,PIZZA,*,*,I'm looking on the map for Pizza places near you.  <oob><map>Pizza</map></oob>,oob.aiml
-0,WHERE ARE THE *,*,*,I'm looking on the map. <oob><map><star/></map></oob>,oob.aiml
 0,WHERE IS A *,*,*,I'll check the map for <star/>.  <oob><map><star/></map></oob>,oob.aiml
 0,WHERE IS PASADENA,*,*,Let me show you on the map.  <oob><map>Pasadena</map></oob>,oob.aiml
-0,WHERE IS *,*,*,<oob><map><star/></map></oob> I'm looking on the map.,oob.aiml
 0,WHERE IS THE CLOSEST *,*,*,I'm looking on the map.  <oob><map><star/></map></oob>,oob.aiml
 0,WHERE IS THE NEAREST STARBUCKS,*,*,I will look for Starbucks on the map.  <oob><map>Starbucks</map></oob>,oob.aiml
 0,WHERE IS THE NEAREST GAS STATION,*,*,Let's look on the map.  <oob><map>Gas Station</map></oob>,oob.aiml
@@ -44,7 +38,6 @@
 0,WHERE IS LEEDS,*,*,I'll show you on the map.  <oob><map>Leeds</map></oob>,oob.aiml
 0,WHERE IS INDIA,*,*,I'll show you on the map.  <oob><map>India</map></oob>,oob.aiml
 0,WHERE CAN I FIND A *,*,*,I'm looking on the map.  <oob><map><star/></map></oob>,oob.aiml
-0,WHERE CAN I GET *,*,*,I'm looking on the map for places near you.  <oob><map><star/></map></oob>,oob.aiml
 0,WHERE CAN I GO *,*,*,I'm looking for "<star/>" on the map. <oob><map><star/></map></oob>,oob.aiml
 0,DIALOG TEST,*,*,Testing dialog.  <oob><dialog><list><li>Yes</li><li>No</li></list></dialog></oob>,oob.aiml
 0,ESPN,*,*,Opening ESPN.  <oob><url>http://espn.go.com</url></oob>,oob.aiml
@@ -61,7 +54,6 @@
 0,TWEET *,*,*,<oob><url>https://twitter.com/intent/tweet?source=webclient&amp;text=<star/></url></oob>Please check the message and press Tweet if you are happy.,oob.aiml
 0,WWW DOT * DOT COM,*,*,I'm opening <star/>.com.  <oob><url>http://www.<star/>.com</url></oob>,oob.aiml
 0,RESTAURANTS,*,*,I'll look on the map for restaurants near you.  <oob><map>Restaurant</map></oob>,oob.aiml
-0,WHAT IS THE DISTANCE TO *,*,*,Let's look on the map. <oob><directions><to><star/></to></directions></oob>,oob.aiml
 0,WHAT IS THE ADDRESS TO *,*,*,I'll try to find it on the map <oob><map><star/></map></oob>,oob.aiml
 0,TEST ALARM,*,*,Alarm now set for 11:30.#Newline<oob><alarm><hour>11</hour><minute>30</minute></alarm></oob>,oob.aiml
 0,UPDATE FACEBOOK STATUS,*,*,<oob><url>http://www.facebook.com/dialog/feed?_path=feed&amp;app_id=294334050655455&amp;redirect_uri=https://www.facebook.com&amp;display=touch</url></oob>Now opening a screen for you to update your status. Type or speak your message into the status box and press share to post it on your wall.,oob.aiml

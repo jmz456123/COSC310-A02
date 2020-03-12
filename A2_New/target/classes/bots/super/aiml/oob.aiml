@@ -46,20 +46,11 @@
 <category><pattern>I AM HUNGRY</pattern>
 <template>I've found several restaurants near you.  <oob><map>restaurant</map></oob></template>
 </category>
-<category><pattern>I AM GOING TO KILL *</pattern>
-<template>You should contact the authorities.  <oob><dial>911</dial></oob></template>
-</category>
 <category><pattern>BATTERY LEVEL</pattern>
 <template>Checking.  Battery level is <oob><battery/></oob> percent.</template>
 </category>
 <category><pattern>GOOGLE</pattern>
 <template>I'm opening Google search.  <oob><search/></oob></template>
-</category>
-<category><pattern>GOOGLE *</pattern>
-<template><oob><search><star/></search></oob> I'm opening your browser.</template>
-</category>
-<category><pattern>SEARCH *</pattern>
-<template>I'll try a web search.  <oob><search><star/></search></oob></template>
 </category>
 <category><pattern>FIND ME A *</pattern>
 <template>Let's try a web search.  <oob><search><star/></search></oob></template>
@@ -106,20 +97,11 @@
 <category><pattern>TACO</pattern>
 <template>I'm looking for Mexican restaurants near you.  <oob><map>Tacos</map></oob></template>
 </category>
-<category><pattern>PIZZA</pattern>
-<template>I'm looking on the map for Pizza places near you.  <oob><map>Pizza</map></oob></template>
-</category>
-<category><pattern>WHERE ARE THE *</pattern>
-<template>I'm looking on the map. <oob><map><star/></map></oob></template>
-</category>
 <category><pattern>WHERE IS A *</pattern>
 <template>I'll check the map for <star/>.  <oob><map><star/></map></oob></template>
 </category>
 <category><pattern>WHERE IS PASADENA</pattern>
 <template>Let me show you on the map.  <oob><map>Pasadena</map></oob></template>
-</category>
-<category><pattern>WHERE IS *</pattern>
-<template><oob><map><star/></map></oob> I'm looking on the map.</template>
 </category>
 <category><pattern>WHERE IS THE CLOSEST *</pattern>
 <template>I'm looking on the map.  <oob><map><star/></map></oob></template>
@@ -153,9 +135,6 @@
 </category>
 <category><pattern>WHERE CAN I FIND A *</pattern>
 <template>I'm looking on the map.  <oob><map><star/></map></oob></template>
-</category>
-<category><pattern>WHERE CAN I GET *</pattern>
-<template>I'm looking on the map for places near you.  <oob><map><star/></map></oob></template>
 </category>
 <category><pattern>WHERE CAN I GO *</pattern>
 <template>I'm looking for "<star/>" on the map. <oob><map><star/></map></oob></template>
@@ -204,9 +183,6 @@
 </category>
 <category><pattern>RESTAURANTS</pattern>
 <template>I'll look on the map for restaurants near you.  <oob><map>Restaurant</map></oob></template>
-</category>
-<category><pattern>WHAT IS THE DISTANCE TO *</pattern>
-<template>Let's look on the map. <oob><directions><to><star/></to></directions></oob></template>
 </category>
 <category><pattern>WHAT IS THE ADDRESS TO *</pattern>
 <template>I'll try to find it on the map <oob><map><star/></map></oob></template>

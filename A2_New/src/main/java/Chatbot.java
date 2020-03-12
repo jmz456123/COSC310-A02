@@ -75,6 +75,7 @@ public class Chatbot {
 
 					String response = chatSession.multisentenceRespond(request);// get bot's replies
 
+					
 					while (response.contains("&lt;"))
 						response = response.replace("&lt;", "<");
 					while (response.contains("&gt;"))

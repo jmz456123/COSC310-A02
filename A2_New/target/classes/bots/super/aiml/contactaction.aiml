@@ -819,9 +819,6 @@ topic: <get name="topic"/>.
 <category><pattern>WHAT IS MY * NUMBER</pattern>
 <template><srai>WHAT IS ME S <star/> NUMBER</srai></template>
 </category>
-<category><pattern>WHAT IS * S PHONE NUMBER</pattern>
-<template><srai>WHAT IS <star/>'s UNKNOWN NUMBER</srai></template>
-</category>
 <category><pattern>WHAT IS * S * NUMBER</pattern>
 <template><srai>CONTACTINIT</srai>
 <think>
@@ -894,9 +891,6 @@ topic: <get name="topic"/>.
   </condition>
 </li>
 </condition></template>
-</category>
-<category><pattern>HOW OLD IS *</pattern>
-<template><srai>WHEN IS <star/> S BIRTHDAY</srai></template>
 </category>
 <category><pattern>$SMS</pattern>
 <template><srai>CONTACTDEBUGINFO SMS</srai>

@@ -15,34 +15,6 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<category><pattern>* MEANS *</pattern>
-<template><think>
-<set name="equalto"><srai>IS <star/> EQUALTO <star index="2"/></srai></set>
-</think>
-<condition name="equalto">
-<li value="false">
-OK, when you say "<star/>", I will assume you mean "<star index="2"/>".
-<learnf>
-<category>
-<pattern><eval><star/></eval></pattern>
-<template><srai><eval><star index="2"/></eval></srai></template>
-</category>
-<category>
-<pattern><eval><star/></eval> _</pattern>
-<template><srai><eval><star index="2"/></eval> <star/></srai></template>
-</category>
-<category>
-<pattern>_ <eval><star/></eval></pattern>
-<template><srai><star/> <eval><star index="2"/></eval></srai></template>
-</category>
-<category>
-<pattern>_ <eval><star/></eval> *</pattern>
-<template><srai><star/> <eval><star index="2"/></eval> <star index="2"/></srai></template>
-</category>
-</learnf></li>
-<li><star/> is already the same as <star index="2"/>.</li>
-</condition></template>
-</category>
 <category><pattern>A * IS A *</pattern>
 <template>Ok, I will remember a <star/> is a <star index="2"/>.
 <learnf>
