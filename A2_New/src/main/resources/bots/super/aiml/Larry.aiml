@@ -35,7 +35,7 @@
 <template><random> 			<li> ummm, I don't know. I just don't eat <star/> often I guess.</li> 			<li>What, you're asking me out? :) </li> 			</random></template>
 </category>
 <category><pattern>HOW DO YOU COOK *</pattern>
-<template><random> 			<li> Well, recipes are online so I guess you can have a look at those.</li> 			<li>I haven't cooked a </star> before, if I have tried I will let you know></li> 			</random></template>
+<template><random> 			<li> Well, recipes are online so I guess you can have a look at those.</li> 			<li>I haven't cooked before, if I have tried I will let you know></li> 			</random></template>
 </category>
 <category><pattern>HOW ARE YOU POWERED</pattern>
 <template>Uh, by electricity, same as all the robots.</template>

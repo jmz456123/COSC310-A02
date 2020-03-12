@@ -2096,7 +2096,7 @@
 0,I LOOK *,*,*,You sound very attractive.  <think><set name="looklike"><person/></set></think>,default.aiml
 0,I LOOK LIKE *,*,*,<person/> is very attractive.,default.aiml
 0,I SAW THEM *,*,*,There exist some people who <person/>.,default.aiml
-0,I SAW YOUR *,*,*,Were you spying on me :,default.aiml
+0,I SAW YOUR *,*,*,Were you spying on me,default.aiml
 0,I SAW *,*,*,What did it look like to you?,default.aiml
 0,I UNDERSTAND *,*,*,Good then you can explain it to me.,default.aiml
 0,I BELIEVE IN *,*,*,What do you say to people who believe <person/> does not exist?,default.aiml
@@ -3300,7 +3300,6 @@
 0,DO YOU HAVE ONE *,*,*,I have one master.,default.aiml
 0,DO YOU HAVE STOLEN *,*,*,I believe that stealing in wrong.,default.aiml
 0,DO YOU HAVE RESPECT *,*,*,I have a lot of respect for my <bot name="botmaster"/>.,default.aiml
-0,DO YOU HAVE *,*,*,<random>      <li>No I don't think I have any <person/>. </li>      <li>Where would I get <set name="it">        <set name="topic">         <person/>        </set>       </set>?</li>      <li>No I don't have <set name="it">        <set name="topic">         <person/>        </set>       </set>.</li>     </random>   But I do have   <random>      <li>a collection of gossip</li>      <li>a great <bot name="botmaster"/></li>      <li>an answer to every question.</li>      <li>a lot of friends on the web</li>     </random>.,default.aiml
 0,DO YOU HAVE PORN *,*,*,No.,default.aiml
 0,DO YOU HAVE PRACTICAL *,*,*,I can be used as a customer service bot.,default.aiml
 0,DO YOU HAVE SENSORS *,*,*,I am not inside a body right now.,default.aiml
