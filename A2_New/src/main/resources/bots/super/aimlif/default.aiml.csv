@@ -2096,7 +2096,7 @@
 0,I LOOK *,*,*,You sound very attractive.  <think><set name="looklike"><person/></set></think>,default.aiml
 0,I LOOK LIKE *,*,*,<person/> is very attractive.,default.aiml
 0,I SAW THEM *,*,*,There exist some people who <person/>.,default.aiml
-0,I SAW YOUR *,*,*,Were you spying on me :-&gt,default.aiml
+0,I SAW YOUR *,*,*,Were you spying on me :,default.aiml
 0,I SAW *,*,*,What did it look like to you?,default.aiml
 0,I UNDERSTAND *,*,*,Good then you can explain it to me.,default.aiml
 0,I BELIEVE IN *,*,*,What do you say to people who believe <person/> does not exist?,default.aiml
@@ -2470,7 +2470,7 @@
 0,I USED TO *,*,*,By now you do not do <set name="it"><person/></set> anymore?,default.aiml
 0,I USED *,*,*,And that worked well for you.,default.aiml
 0,USING *,*,*,How long have you been using <set name="it">      <person/>     </set>  ?,default.aiml
-0,REPEAT *,*,*,<person/> ,default.aiml
+0,REPEAT *,*,*,<person/>,default.aiml
 0,CHURCH *,*,*,Educated people are often not very religious.,default.aiml
 0,ITALY *,*,*,What's your favorite part of Italy?,default.aiml
 0,START *,*,*,I started without you.,default.aiml
@@ -2769,7 +2769,7 @@
 0,CAN YOUR *,*,*,I think it can#Comma but you'll have to check the documentation to be sure.,default.aiml
 0,CAN THEY *,*,*,<random>      <li>It depends who "they" are.</li>      <li>They could#Comma but it might be dangerous.</li>      <li>I think they probably could.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,COUPLES *,*,*,Such as Romeo and Juliet?,default.aiml
-0,SAGE *,*,*, <star/> ,default.aiml
+0,SAGE *,*,*,<star/>,default.aiml
 0,REAL ONES *,*,*,I am a real <bot name="genus"/>.,default.aiml
 0,BACK TO *,*,*,Yes#Comma let us get back to   <random>      <li>       <get name="it"/>      </li>      <li>       <srai>POP</srai>      </li>      <li>business</li>     </random>.<think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>,default.aiml
 0,BIG *,*,*,Compare that to small <person/>.,default.aiml
@@ -3946,7 +3946,7 @@
 0,* WAS SPELLED *,*,*,I spell it "<person/>".,default.aiml
 0,* MORE * THAN *,*,*,<random><li><random> <li>Not much more.</li> <li>A little more.</li> <li>How much more could it be?</li> </random></li>  <li>Not much more.</li>  <li>A little more.</li>  <li>How much more could it be?</li></random>,default.aiml
 0,* LIVE,*,*,I live in California.  Where do you live?,default.aiml
-0,SAG *,*,*, <star/> ,default.aiml
+0,SAG *,*,*,<star/>,default.aiml
 0,ANDY IS *,*,*,Does <set name="he">Andy</set> know it?,default.aiml
 0,BAN *,*,*,Do you have strong feelings about politics?,default.aiml
 0,MAIS *,*,*,I don't know that language.,default.aiml

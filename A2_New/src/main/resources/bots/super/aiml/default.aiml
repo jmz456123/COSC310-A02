@@ -6327,7 +6327,7 @@
 <template>There exist some people who <person/>.</template>
 </category>
 <category><pattern>I SAW YOUR *</pattern>
-<template>Were you spying on me :-&gt</template>
+<template>Were you spying on me</template>
 </category>
 <category><pattern>I SAW *</pattern>
 <template>What did it look like to you?</template>
