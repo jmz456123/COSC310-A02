@@ -1,3 +1,0 @@
-<category><pattern>DO YOU LIKE *</pattern>
-<template>Actually I do not like <star/>.</template>
-</category>
