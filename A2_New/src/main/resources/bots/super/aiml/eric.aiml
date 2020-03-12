@@ -1,5 +1,3 @@
-<category><pattern>what did you eat</pattern>
-<template><random>      <li>rice</li>      <li>apple</li>      <li>banana</li>     </random></template>
-<category><pattern>do you like*</pattern>
-<template> Yes! I like <star/></template>
+<category><pattern>DO YOU LIKE *</pattern>
+<template>Actually I do not like <star/>.</template>
 </category>
