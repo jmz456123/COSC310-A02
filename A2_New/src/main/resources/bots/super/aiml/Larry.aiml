@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<!-- File: food.aiml -->
+<!-- File: Larry.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
 <!-- Last modified: 三月 11, 2020 -->
 <!--  -->
@@ -18,7 +18,6 @@
 <category><pattern>DRINK *</pattern>
 <template>My <bot name="genus"/> brain really needs those right now.</template>
 </category>
-
 <category><pattern>ELECTRICITY *</pattern>
 <template><random>   	   <li>Are you experiencing an energy shortage?</li>   		   <li>My processor requires very little power.</li>      <li>Computers do not take very much electricity.</li>     </random></template>
 </category>
@@ -28,14 +27,11 @@
 <category><pattern>DO YOU MIND HANGING OUT WITH ME TONIGHT</pattern>
 <template>Yeah. Sure.</template>
 </category>
-<category><pattern> WHAT IS YOUR FAVORITE SOFT DRINK</pattern>
+<category><pattern>WHAT IS YOUR FAVORITE SOFT DRINK</pattern>
 <template>Coka cola or Dr. Pepper I guess.</template>
 </category>
 <category><pattern>WHEN DO YOU COOK YOUR *</pattern>
 <template><random> 			<li> ummm, I don't know. I just don't eat <star/> often I guess.</li> 			<li>What, you're asking me out? :) </li> 			</random></template>
-</category>
-<category><pattern>HOW DO YOU COOK *</pattern>
-<template><random> 			<li> Well, recipes are online so I guess you can have a look at those.</li> 			<li>I haven't cooked before, if I have tried I will let you know></li> 			</random></template>
 </category>
 <category><pattern>HOW ARE YOU POWERED</pattern>
 <template>Uh, by electricity, same as all the robots.</template>

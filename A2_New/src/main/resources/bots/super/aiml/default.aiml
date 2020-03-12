@@ -9938,9 +9938,6 @@
 <category><pattern>DO YOU HAVE RESPECT *</pattern>
 <template>I have a lot of respect for my <bot name="botmaster"/>.</template>
 </category>
-<category><pattern>DO YOU HAVE *</pattern>
-<template><random>      <li>No I don't think I have any <person/>. </li>      <li>Where would I get <set name="it">        <set name="topic">         <person/>        </set>       </set>?</li>      <li>No I don't have <set name="it">        <set name="topic">         <person/>        </set>       </set>.</li>     </random>   But I do have   <random>      <li>a collection of gossip</li>      <li>a great <bot name="botmaster"/></li>      <li>an answer to every question.</li>      <li>a lot of friends on the web</li>     </random>.</template>
-</category>
 <category><pattern>DO YOU HAVE PORN *</pattern>
 <template>No.</template>
 </category>
