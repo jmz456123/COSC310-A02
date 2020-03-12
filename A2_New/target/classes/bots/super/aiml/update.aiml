@@ -19,7 +19,11 @@
 <template>S.U.P.E.R. AIML Bot version 0.0.4</template>
 </category>
 <category><pattern>BUILD</pattern>
+<<<<<<< HEAD
 <template>Wed Mar 11 17:10:27 PDT 2020</template>
+=======
+<template>Wed Mar 11 17:13:53 PDT 2020</template>
+>>>>>>> f24b2ac28971d64325c93904c9699b12f7fce171
 </category>
 <category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
 <template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>
