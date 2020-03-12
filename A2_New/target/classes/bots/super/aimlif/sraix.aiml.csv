@@ -113,7 +113,6 @@
 0,WHO PLAYED *,*,*,<sraix>WHO PLAYED <star/></sraix>,sraix.aiml
 0,WHO HAS *,*,*,<sraix>WHO HAS <star/></sraix>,sraix.aiml
 0,WHO HAS THE *,*,*,<sraix>WHO HAS THE <star/></sraix>,sraix.aiml
-0,WHO ARE *,*,*,<sraix>WHO ARE <star/></sraix>,sraix.aiml
 0,WHO ARE THE *,*,*,<sraix>WHO ARE THE <star/></sraix>,sraix.aiml
 0,WHO MADE *,*,*,<sraix>WHO MADE <star/></sraix>,sraix.aiml
 0,WHO WON THE *,*,*,<sraix>WHO WON THE <star/></sraix>,sraix.aiml
@@ -123,7 +122,6 @@
 0,WHO IS STEVEN SEAGAL,*,*,<sraix>WHO IS STEVEN SEAGAL</sraix>,sraix.aiml
 0,WHO IS STEVEN *,*,*,<sraix>WHO IS STEVEN <star/></sraix>,sraix.aiml
 0,WHO IS DOCTOR *,*,*,<sraix>WHO IS DOCTOR <star/></sraix>,sraix.aiml
-0,WHO IS DOCTOR WALLACE,*,*,<sraix>WHO IS DOCTOR WALLACE</sraix>,sraix.aiml
 0,WHO IS A *,*,*,<sraix>WHO IS A <star/></sraix>,sraix.aiml
 0,WHO IS OBAMA,*,*,<sraix>WHO IS OBAMA</sraix>,sraix.aiml
 0,WHO IS BARACK OBAMA,*,*,<sraix>WHO IS BARACK OBAMA</sraix>,sraix.aiml
@@ -141,7 +139,6 @@
 0,WHO IS THE LEAD SINGER OF *,*,*,<sraix>WHO IS THE LEAD SINGER OF <star/></sraix>,sraix.aiml
 0,WHO IS THE CURRENT *,*,*,<sraix>WHO IS THE CURRENT <star/></sraix>,sraix.aiml
 0,WHO IS THE GREATEST *,*,*,<sraix>WHO IS THE GREATEST <star/></sraix>,sraix.aiml
-0,WHO IS THE MOST *,*,*,<sraix>WHO IS THE MOST <star/></sraix>,sraix.aiml
 0,WHO IS TONY *,*,*,<sraix>WHO IS TONY <star/></sraix>,sraix.aiml
 0,WHO IS SUPERMAN,*,*,<sraix>WHO IS SUPERMAN</sraix>,sraix.aiml
 0,WHO IS ROBERT *,*,*,<sraix>WHO IS ROBERT <star/></sraix>,sraix.aiml
@@ -215,14 +212,12 @@
 0,WHEN WILL THE WORLD END,*,*,<sraix>WHEN WILL THE WORLD END</sraix>,sraix.aiml
 0,WHEN WILL I DIE,*,*,<sraix>WHEN WILL I DIE</sraix>,sraix.aiml
 0,WHEN *,*,*,<sraix>WHEN <star/></sraix>,sraix.aiml
-0,WHEN IS *,*,*,<sraix>WHEN IS <star/></sraix>,sraix.aiml
 0,WHEN IS THE *,*,*,<sraix>WHEN IS THE <star/></sraix>,sraix.aiml
 0,WHEN IS THE END OF THE WORLD,*,*,<sraix>WHEN IS THE END OF THE WORLD</sraix>,sraix.aiml
 0,WHEN IS THE WORLD GOING TO END,*,*,<sraix>WHEN IS THE WORLD GOING TO END</sraix>,sraix.aiml
 0,WHEN IS THE WORLD *,*,*,<sraix>WHEN IS THE WORLD <star/></sraix>,sraix.aiml
 0,WHEN DID MICHAEL JACKSON DIE,*,*,<sraix>WHEN DID MICHAEL JACKSON DIE</sraix>,sraix.aiml
 0,WHEN DID *,*,*,<sraix>WHEN DID <star/></sraix>,sraix.aiml
-0,WHEN DOES *,*,*,<sraix>WHEN DOES <star/></sraix>,sraix.aiml
 0,WHEN WAS *,*,*,<sraix>WHEN WAS <star/></sraix>,sraix.aiml
 0,WHAT COLORS ARE *,*,*,<sraix>WHAT COLORS ARE <star/></sraix>,sraix.aiml
 0,WHAT HAPPEN *,*,*,<sraix>WHAT HAPPEN <star/></sraix>,sraix.aiml
@@ -512,7 +507,6 @@
 0,HOW CAN I GET MY *,*,*,<sraix>HOW CAN I GET MY <star/></sraix>,sraix.aiml
 0,HOW CAN I GET A *,*,*,<sraix>HOW CAN I GET A <star/></sraix>,sraix.aiml
 0,HOW CAN I GO TO *,*,*,<sraix>HOW CAN I GO TO <star/></sraix>,sraix.aiml
-0,HOW CAN I *,*,*,<sraix>HOW CAN I <star/></sraix>,sraix.aiml
 0,HOW CAN I KILL *,*,*,<sraix>HOW CAN I KILL <star/></sraix>,sraix.aiml
 0,HOW COULD I *,*,*,<sraix>HOW COULD I <star/></sraix>,sraix.aiml
 0,HOW ARE *,*,*,<sraix>HOW ARE <star/></sraix>,sraix.aiml

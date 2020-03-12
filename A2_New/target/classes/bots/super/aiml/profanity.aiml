@@ -15,13 +15,7 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<category><pattern>YOU FUCKING *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
 <category><pattern>YOU ARE FUCKING STUPID</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>YOU ARE FUCKING *</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>F U</pattern>
@@ -72,9 +66,6 @@
 <category><pattern>_ FUCK YOU</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
-<category><pattern>_ NIGGER</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
 <category><pattern>GO F ASTERISK ASTERISK ASTERISK YOURSELF</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
@@ -82,15 +73,6 @@
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>GO F ASTERISK ASTERISK ASTERISK *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>SHIT</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>FUCKING</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>FUCK</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>FUCK U</pattern>
@@ -103,15 +85,6 @@
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>FUCK YEAH</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>FUCK *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>FUCK OFF</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>FUCK YOU</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>FUCK YOU *</pattern>
@@ -144,13 +117,7 @@
 <category><pattern>SHUT THE FUCK UP BITCH</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
-<category><pattern>NIGGER</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
 <category><pattern>IM FUCKING *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>HEY BITCH *</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>SAY FUCK YOU *</pattern>
@@ -171,25 +138,13 @@
 <category><pattern>WHAT THE F ASTERISK ASTERISK ASTERISK IS *</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
-<category><pattern>WHAT THE FUCK</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>WHAT THE FUCK *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
 <category><pattern>F ASTERISK ASTERISK ASTERISK YOU *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>F YOU</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>FUCKING *</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>F ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK *</pattern>
-<template><srai>FILTER PROFANITY</srai></template>
-</category>
-<category><pattern>SHIT *</pattern>
 <template><srai>FILTER PROFANITY</srai></template>
 </category>
 <category><pattern>SCREW YOU</pattern>

@@ -1,7 +1,5 @@
 0,AIMLEQUAL * EQUAL *,*,*,<srai>LEARNEQUAL <star/></srai>#Newline<srai><star/> TESTEQUAL <star index="2"/></srai>,primitive-math.aiml
 0,LEARNEQUAL *,*,*,<!-- Learn <star/> = <star/>. -->#Newline<learn>#Newline<category>#Newline<pattern><eval><star/></eval> TESTEQUAL <eval><star/></eval></pattern>#Newline<template>True</template>#Newline</category>#Newline</learn>#Newline<learn>#Newline<category>#Newline<pattern><eval><star/></eval> TESTEQUAL *</pattern>#Newline<template>False</template>#Newline</category>#Newline</learn>#Newline<learn>#Newline<category>#Newline<pattern>* TESTQUAL <eval><star/></eval></pattern>#Newline<template>False</template>#Newline</category>#Newline</learn>,primitive-math.aiml
-0,SUCCESSOR
-0,*,*,1,primitive-math.aiml
 0,SUCCESSOR 1,*,*,2,primitive-math.aiml
 0,SUCCESSOR 2,*,*,3,primitive-math.aiml
 0,SUCCESSOR 3,*,*,4,primitive-math.aiml

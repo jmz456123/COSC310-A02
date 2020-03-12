@@ -24,9 +24,6 @@
 <category><pattern>YOU F ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK ASTERISK *</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>YOU IDIOT</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>YOU ARE A B ASTERISK ASTERISK ASTERISK ASTERISK</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
@@ -57,9 +54,6 @@
 <category><pattern>S ASTERISK ASTERISK ASTERISK *</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>GO FUCK YOURSELF</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>GO DIE IN A HOLE</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
@@ -69,9 +63,6 @@
 <category><pattern>DUMB ASS</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>PUSSY</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>FUCK U BITCH</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
@@ -79,9 +70,6 @@
 <template><srai>FILTER INSULT</srai></template>
 </category>
 <category><pattern>FUCK YOU THEN</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
-<category><pattern>BITCH</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
 <category><pattern>BITCH PLEASE</pattern>
@@ -117,19 +105,10 @@
 <category><pattern>DICK HEAD</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>ASSHOLE</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>DUMBASS</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>BASTARD</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>STUPID BITCH</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
-<category><pattern>FAGGOT</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
 <category><pattern>WHAT IS UP BITCH</pattern>
@@ -141,16 +120,10 @@
 <category><pattern>SLUT</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
-<category><pattern>GAY</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
 <category><pattern>HOE</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
 <category><pattern>YOU ARE FAT</pattern>
-<template><srai>FILTER INSULT</srai></template>
-</category>
-<category><pattern>YOU ARE CRAZY</pattern>
 <template><srai>FILTER INSULT</srai></template>
 </category>
 </aiml>

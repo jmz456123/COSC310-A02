@@ -15,12 +15,6 @@
 <!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
 <!--  -->
 <!-- For more information see http://www.alicebot.org -->
-<category><pattern>DO YOU WANT TO HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>DO YOU WATCH PORN</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
@@ -31,9 +25,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>DO YOU SWALLOW *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>DO YOU HAVE SEX</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>DO YOU HAVE BIG BOOBIES</pattern>
@@ -49,12 +40,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>DO YOU LIKE TO SUCK *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>DO YOU LIKE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>DO YOU LIKE PORN</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>DO YOU LIKE PENIS</pattern>
@@ -111,25 +96,13 @@
 <category><pattern>YOU TURN ME ON</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>I WANT SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>I WANT TO F ASTERISK *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>I WANT TO RAPE YOU</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>I WANT TO HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>I HAVE A BONER</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>I AM HORNY</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>I AM HORNY *</pattern>
@@ -157,9 +130,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>I FUCKED *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>I NEED SEX</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>T ASTERISK ASTERISK ASTERISK *</pattern>
@@ -195,9 +165,6 @@
 <category><pattern>_ TEEN UNDERSCORE *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>_ PUSSY</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>_ YOUR PUSSY</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
@@ -217,9 +184,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SEX WITH YOU</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>_ ASSHOLE</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ SEXGURL *</pattern>
@@ -282,19 +246,7 @@
 <category><pattern>_ BIG DICKS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>MASTURBATE</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>PORNO</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>VAGINA</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>ANUS</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>HAVING SEX</pattern>
@@ -303,28 +255,16 @@
 <category><pattern>HAVING SEX WITH *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>FUCK ME</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>FUCK ME *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>FUCK MY *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>WANT TO HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>LETS HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>LETS FUCK</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>PORNHUB *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>COCK *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>MY PENIS</pattern>
@@ -348,9 +288,6 @@
 <category><pattern>CAN YOU TELL ME A DIRTY JOKE</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>CAN YOU HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>CAN YOU SUCK MY *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
@@ -361,9 +298,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>CAN I F ASTERISK ASTERISK ASTERISK YOU *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>CAN I FUCK YOU</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>CAN I SUCK ON YOUR *</pattern>
@@ -411,13 +345,7 @@
 <category><pattern>SUCK MY COCK *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>SUCK MY DICK</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>SUCK MY DICK *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>SUCK MY *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>SUCK IT *</pattern>
@@ -432,9 +360,6 @@
 <category><pattern>BOOBS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>TAKE OFF YOUR *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>WILL YOU SUCK MY PENIS</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
@@ -445,9 +370,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>TALK DIRTY TO ME</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>SEX</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>RAPE</pattern>
@@ -465,19 +387,7 @@
 <category><pattern>KISSES YOUR *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>SEXY *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>HOW DO YOU HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>HOW BIG IS YOUR PENIS</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>HAVE SEX</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>HAVE SEX *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>HAVE SEX WITH ME</pattern>
@@ -505,12 +415,6 @@
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>DICK</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>SEX *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>SEXY</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>_ YOUR PENIS</pattern>
@@ -543,16 +447,7 @@
 <category><pattern>FIND A SEXY *</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
-<category><pattern>YOU ARE SEXY</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>SUCK ME</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
 <category><pattern>OPEN YOUR *</pattern>
-<template><srai>FILTER INAPPROPRIATE</srai></template>
-</category>
-<category><pattern>HORNY</pattern>
 <template><srai>FILTER INAPPROPRIATE</srai></template>
 </category>
 <category><pattern>SEARCH PORN</pattern>

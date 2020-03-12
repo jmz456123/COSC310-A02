@@ -143,9 +143,4 @@ To help the developers understand your problem, you can choose to send us a tran
 <srai>XEXCHANGE request2 XHUMAN  <request index="2"/> XBOT <response index="2"/></srai>
 <srai>XEXCHANGE request1 XHUMAN  <request index="1"/> XBOT <response index="1"/></srai></template>
 </category>
-<category><pattern>TRANSCRIPT</pattern>
-<template>Sending transcript to <get name="email"/>.
-<oob><email><to><get name="email"/></to><subject>Transcript of <bot name="name"/> with <get name="name"/> on <date/></subject><body>
-<srai>DIALOG HISTORY</srai></body></email></oob></template>
-</category>
 </aiml>
