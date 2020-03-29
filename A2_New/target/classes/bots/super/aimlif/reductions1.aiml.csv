@@ -493,7 +493,6 @@
 0,YES AND I AM *,*,*,<srai>YES</srai> <srai>I AM <star/></srai>,reductions1.aiml
 0,YES SIR *,*,*,<srai>YES <star/></srai>,reductions1.aiml
 0,YIPPEE,*,*,<srai>YAY</srai>,reductions1.aiml
-0,YOU ARE NOT SMART,*,*,<srai>YOU ARE DUMB</srai>,reductions1.aiml
 0,YOU ARE WRONG *,*,*,<srai>YOU ARE WRONG</srai> <sr/>,reductions1.aiml
 0,YOU MISS UNDERSTOOD *,*,*,<srai>YOU MISUNDERSTOOD <star/></srai>,reductions1.aiml
 0,YOU PISS ME OFF,*,*,<srai>REPORT A PROBLEM</srai>,reductions1.aiml
@@ -972,7 +971,6 @@
 0,DO YOU MISS ME,*,*,<srai>DID YOU MISS ME</srai>,reductions1.aiml
 0,FIND ME SOME *,*,*,<srai>SEARCH <star/></srai>,reductions1.aiml
 0,FO SHIZZLE,*,*,<srai>YES</srai>,reductions1.aiml
-0,GOSH *,*,*,<srai>GOSH</srai> <sr/>,reductions1.aiml
 0,HI BABY,*,*,<srai>HI</srai>,reductions1.aiml
 0,I AM A MAN *,*,*,<srai>I AM A MAN</srai> <srai><star/></srai>,reductions1.aiml
 0,I D K,*,*,<srai>I DO NOT KNOW</srai>,reductions1.aiml
@@ -1591,7 +1589,6 @@
 0,SURE *,*,*,<srai>YES</srai> <sr/>,reductions1.aiml
 0,LOVE YOU,*,*,<srai>I LOVE YOU</srai>,reductions1.aiml
 0,OF COURSE,*,*,<srai>YES</srai>,reductions1.aiml
-0,BYE *,*,*,<srai>BYE</srai>,reductions1.aiml
 0,WAT,*,*,<srai>WHAT</srai>,reductions1.aiml
 0,WHAT IS YOUR FAVORITE FOOD,*,*,<srai>FAVORITE FOOD</srai>,reductions1.aiml
 0,UM *,*,*,<sr/>,reductions1.aiml
