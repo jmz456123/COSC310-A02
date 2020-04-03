@@ -1,7 +1,14 @@
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.swing.JFrame;
 import javax.swing.JTextArea;
@@ -36,7 +43,9 @@ public class ChatbotThree extends JFrame {
 		chatArea.setLocation(10, 10);
 		chatBox.setSize(470, 30);
 		chatBox.setLocation(10, 520);
-	}
+	}	
+		
+		
 
 	public static void main(String[] args) {
 		try {
@@ -50,13 +59,23 @@ public class ChatbotThree extends JFrame {
 			bot.brain.nodeStats();//this sets up the chatbot for conversation
 
 			new ChatbotThree();
+			 
 			chatBox.addActionListener(new ActionListener() {
 				//similar to a while loop, this method keeps asking user for input
 				public void actionPerformed(ActionEvent arg0) {
+					String correctedText="";
 					String text = chatBox.getText();//similar to in.nextLine() from Scanner
-					chatArea.append("YOU ->:" + text + "\n");//chatArea.append prints thing on the screen
+					try {
+						correctedText = getCorrectedText(text);
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					chatArea.append("YOU ->:" + text +"\nCorrected Text->:"+correctedText+"\n");//chatArea.append prints thing on the screen
 					chatBox.setText("");//flush text away
-					answerUser(text);//Ab.jar process input and prints results
+					
+						answerUser(correctedText);
+					
 				}
 			});
 		} catch (Exception e) {
@@ -85,6 +104,49 @@ public class ChatbotThree extends JFrame {
 				response = response.replace("&gt;", ">");
 			chatArea.append("Robot : " + response + "\n");//print results on GUI
 		}
+	}
+	
+	private static String getCorrectedText(String text) throws IOException {
+		
+		Solution solution = new Solution("corpus.txt");
+  		int index=0; int dif; 
+		String[] splited = text.split("\\s+");
+		String[] splited2 = text.split("\\s+");
+		String correctWord="";
+		
+		String outputString ="";
+		for (int i = 0; i < splited.length; i++) {
+			char[] charText=text.toCharArray();
+			correctWord=solution.spellCheck(splited[i]);
+			if (!correctWord.equals(splited2[i])) {
+				index = text.indexOf(splited2[i]);
+				
+				if (correctWord.length() == splited2[i].length()) {
+					for (int j = 0; j < splited2[i].length(); j++) {
+						charText[index+j] = correctWord.charAt(0+j);
+					}
+				}
+				
+				else {
+					
+					dif=correctWord.length()-splited2[i].length();
+					Math.abs(dif);
+					
+					for (int j = 0; j < index; j++) {
+						outputString += charText[j];
+					}					
+					outputString+=correctWord+" ";
+					for (int x =index+splited2[i].length(); x < charText.length; x++) {
+						outputString += charText[x];
+					}
+					text = outputString;
+					outputString="";					
+				}				
+			}
+		}
+		
+		return text;
+		
 	}
 
 	private static String getResourcesPath() {
