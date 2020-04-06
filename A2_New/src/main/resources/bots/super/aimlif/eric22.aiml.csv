@@ -1,4 +1,0 @@
-0,DO YOU LIKE *,*,*,Yes! I like <star/>#Comma how about you?,eric22.aiml
-0,DID YOU EAT *,*,*,<random><li>Yes#CommaI did</li>   <li>No#Comma I don not like <star/></li></random>,eric22.aiml
-0,DO YOU WANT EAT *,*,*,<random><li>Yes#CommaI do</li>   <li>No#Comma I don not like eat  <star/>.</li></random>,eric22.aiml
-0,HAVE YOU EAT *,*,*,<random><li>Yes#CommaI like eat <star/></li>   <li>No#Comma I don not like eat  <star/>.</li></random>,eric22.aiml
