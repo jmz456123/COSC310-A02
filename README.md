@@ -51,3 +51,19 @@ import org.alicebot.ab.*;
 ``
 grammar of AIML files on https://docs.google.com/document/d/1DWHiOOcda58CflDZ0Wsm1CgP3Es6dpicb4MBbbpwzEk/pub
 https://howtodoinjava.com/ai/java-aiml-chatbot-example/
+
+
+The chatbot we built have 2 general topics, namely food and hobby. They are implemented using AIML,which is as same as A2
+
+	A2 does not have a GUI, everything was done in the console. We built the GUI using methods extended from JFrame. Recent history is viewable and a scroll bar is added to allow for long conversations.
+
+The open source AIML from Dr. Wallace handles almost all conversations. We used it so that if a user is off topic or an unexpected users' input shows up, the chatbot makes sure conversations flow seamlessly.
+
+	A dictionary is introduced in the project for pattern matching so that when potential spelling mistakes occur, they are handled before being interpreted by the chatbot.
+
+
+The language toolkit we used in the chatbot for sentiment-detection is Stanford NLP core. So far, we can only respond specifically to the sentiment. We cannot adjust the response very naturally.
+
+
+	The ChatBot.java is modified from the test code of A2. It is rewritten to have functions built in with sockets so that it can act either as a server or as a client. It is able to have a conversation with another chatbot.
+
