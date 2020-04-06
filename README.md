@@ -62,7 +62,7 @@ The open source AIML from Dr. Wallace handles almost all conversations. We used 
 	A dictionary is introduced in the project for pattern matching so that when potential spelling mistakes occur, they are handled before being interpreted by the chatbot.
 
 
-The language toolkit we used in the chatbot for sentiment-detection is Stanford NLP core. So far, we can only respond specifically to the sentiment. We cannot adjust the response very naturally.
+The language toolkit we used in the chatbot for sentiment-detection is Stanford NLP core. So far, we can only respond specifically to the sentiment. We cannot adjust the response very naturally. Here is the url:https://stanfordnlp.github.io/CoreNLP/download.html
 
 
 	The ChatBot.java is modified from the test code of A2. It is rewritten to have functions built in with sockets so that it can act either as a server or as a client. It is able to have a conversation with another chatbot.
