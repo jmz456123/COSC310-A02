@@ -1,0 +1,15 @@
+0,WHAT IS YOUR FAVOURITE HOBBY,*,*,<random><li>I like playing basketball.</li>    <li>I like playing badminton.</li> <li>My favorite hobbies is reading books</li></random>,hobbies.aiml
+0,I LIKE PLAYING * TOO,*,*,<random><li>Oh#Comma really!</li>   <li>I think <star/> is the best sport.</li></random>,hobbies.aiml
+0,DO YOU LIKE READING*,*,*,<random><li>Yes#Comma I do. I like <star/></li>   </random>,hobbies.aiml
+0,HOW OFTEN DO YOU PLAY*,*,*,<random><li>I usually play once a week.</li>   <li>I usually play twice a week.</li> <li>I usually play once a day.</li></random>,hobbies.aiml
+0,WHAT KINDS OF BOOK DO YOU LIKE,*,*,<random><li>I like fiction.</li>   <li>I like non-fiction.</li></random>,hobbies.aiml
+0,COULD YOU NAME A FICTION BOOK,*,*,<random><li>Now i am reading Harry Porter</li>   <li>Now i am reading The great gatsby  .</li></random>,hobbies.aiml
+0,I KNOW THAT BOOK,*,*,<random><li>It is a perfect book</li> </random>,hobbies.aiml
+0,ARE YOU CRAZY,*,*,<random><li>No#CommaI am not</li> <li>You are crazy</li> #Newline<li>Yes</li><li>Do not ask me that again</li>#Newline<li>shut up</li></random>,hobbies.aiml
+0,WHAT IS YOUR FAVOURITE SUBJECT,*,*,<random>#Newline<li>My favourite subject is art.</li>    #Newline<li>My favourite subject is math.</li> &gt;#Newline</random>,hobbies.aiml
+0,MY FAVOURITE SUBJECT IS *,*,*,<random>#Newline<li> I like <star/> too</li>    #Newline<li>I hate <star/></li> &gt;#Newline</random>,hobbies.aiml
+0,MY HOBBY IS SLEEPING,*,*,<random>#Newline<li>Who doesn't like to sleep.</li>    #Newline<li>You should study hard instead of sleeping. </li> &gt;#Newline</random>,hobbies.aiml
+0,MY HOBBY IS SINGING,*,*,<random>#Newline<li>Oh#Comma that is really nice hobby.</li>    #Newline<li>Oh#Comma really#Comma can you sing a song? </li> &gt;#Newline</random>,hobbies.aiml
+0,MY HOBBY IS STUDING,*,*,<random>#Newline<li>Oh#Comma Your GPA must be very high.</li>    #Newline<li>what is your GPA </li> &gt;#Newline</random>,hobbies.aiml
+0,MY GPA IS*,*,*,<random>#Newline<li>Oh#Comma You are a genius.</li>    #Newline<li>I was <star/> too#Comma but now I am 2.0</li> &gt;#Newline</random>,hobbies.aiml
+0,ANY HOBBY YOU LIKE,*,*,<random>#Newline<li>I like playing basketball.</li>    #Newline<li>I like studing</li> &gt;#Newline</random>,hobbies.aiml

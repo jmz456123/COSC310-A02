@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: eric22.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 四月 05, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>DO YOU LIKE *</pattern>
+<template>Yes! I like <star/>, how about you?</template>
+</category>
+<category><pattern>DID YOU EAT *</pattern>
+<template><random><li>Yes,I did</li>   <li>No, I don not like <star/></li></random></template>
+</category>
+<category><pattern>DO YOU WANT EAT *</pattern>
+<template><random><li>Yes,I do</li>   <li>No, I don not like eat  <star/>.</li></random></template>
+</category>
+<category><pattern>HAVE YOU EAT *</pattern>
+<template><random><li>Yes,I like eat <star/></li>   <li>No, I don not like eat  <star/>.</li></random></template>
+</category>
+</aiml>

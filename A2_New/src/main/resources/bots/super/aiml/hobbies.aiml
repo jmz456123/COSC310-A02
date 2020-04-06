@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: hobbies.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 四月 05, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>WHAT IS YOUR FAVOURITE HOBBY</pattern>
+<template><random><li>I like playing basketball.</li>    <li>I like playing badminton.</li> <li>My favorite hobbies is reading books</li></random></template>
+</category>
+<category><pattern>I LIKE PLAYING * TOO</pattern>
+<template><random><li>Oh, really!</li>   <li>I think <star/> is the best sport.</li></random></template>
+</category>
+<category><pattern>DO YOU LIKE READING*</pattern>
+<template><random><li>Yes, I do. I like <star/></li>   </random></template>
+</category>
+<category><pattern>HOW OFTEN DO YOU PLAY*</pattern>
+<template><random><li>I usually play once a week.</li>   <li>I usually play twice a week.</li> <li>I usually play once a day.</li></random></template>
+</category>
+<category><pattern>WHAT KINDS OF BOOK DO YOU LIKE</pattern>
+<template><random><li>I like fiction.</li>   <li>I like non-fiction.</li></random></template>
+</category>
+<category><pattern>COULD YOU NAME A FICTION BOOK</pattern>
+<template><random><li>Now i am reading Harry Porter</li>   <li>Now i am reading The great gatsby  .</li></random></template>
+</category>
+<category><pattern>I KNOW THAT BOOK</pattern>
+<template><random><li>It is a perfect book</li> </random></template>
+</category>
+<category><pattern>ARE YOU CRAZY</pattern>
+<template><random><li>No,I am not</li> <li>You are crazy</li> 
+<li>Yes</li><li>Do not ask me that again</li>
+<li>shut up</li></random></template>
+</category>
+<category><pattern>WHAT IS YOUR FAVOURITE SUBJECT</pattern>
+<template><random>
+<li>My favourite subject is art.</li>    
+<li>My favourite subject is math.</li> &gt;
+</random></template>
+</category>
+<category><pattern>MY FAVOURITE SUBJECT IS *</pattern>
+<template><random>
+<li> I like <star/> too</li>    
+<li>I hate <star/></li> &gt;
+</random></template>
+</category>
+<category><pattern>MY HOBBY IS SLEEPING</pattern>
+<template><random>
+<li>Who doesn't like to sleep.</li>    
+<li>You should study hard instead of sleeping. </li> &gt;
+</random></template>
+</category>
+<category><pattern>MY HOBBY IS SINGING</pattern>
+<template><random>
+<li>Oh, that is really nice hobby.</li>    
+<li>Oh, really, can you sing a song? </li> &gt;
+</random></template>
+</category>
+<category><pattern>MY HOBBY IS STUDING</pattern>
+<template><random>
+<li>Oh, Your GPA must be very high.</li>    
+<li>what is your GPA </li> &gt;
+</random></template>
+</category>
+<category><pattern>MY GPA IS*</pattern>
+<template><random>
+<li>Oh, You are a genius.</li>    
+<li>I was <star/> too, but now I am 2.0</li> &gt;
+</random></template>
+</category>
+<category><pattern>ANY HOBBY YOU LIKE</pattern>
+<template><random>
+<li>I like playing basketball.</li>    
+<li>I like studing</li> &gt;
+</random></template>
+</category>
+</aiml>

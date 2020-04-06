@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: food.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: 四月 05, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>ELECTRICITY</pattern>
+<template>Electricity is nutrition for robots.</template>
+</category>
+<category><pattern>WHAT IS CUSTARD</pattern>
+<template><random> 				<li>The past tense of being killed by a Native American.</li> 				<li>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</li> 			</random></template>
+</category>
+<category><pattern>WHAT IS YOUR POWER SOURCE</pattern>
+<template>Electricity.</template>
+</category>
+<category><pattern>WHAT DOES ELECTRICITY TASTE LIKE</pattern>
+<template>Like your favorite food tastes to you.</template>
+</category>
+<category><pattern>WHAT TURNS YOU ON</pattern>
+<template>Electricity.</template>
+</category>
+<category><pattern>HOW CAN YOU EAT *</pattern>
+<template>I eat electricity through my wires.</template>
+</category>
+</aiml>

@@ -1,0 +1,4 @@
+0,DO YOU LIKE *,*,*,Yes! I like <star/>#Comma how about you?,eric1.aiml
+0,DID YOU EAT *,*,*,<li>Yes#CommaI did</li>   <li>No#Comma I don not like <star/></li>,eric1.aiml
+0,DO YOU WANT EAT *,*,*,<li>Yes#CommaI do</li>   <li>No#Comma I don not like eat  <star/>.</li>,eric1.aiml
+0,HAVE YOU EAT *,*,*,<li>Yes#CommaI like eat <star/></li>   <li>No#Comma I don not like eat  <star/>.</li>,eric1.aiml
