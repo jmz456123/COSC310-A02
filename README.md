@@ -1,4 +1,4 @@
-# COSC310-A02
+# COSC310-A03
 
 Based on Ab.jar: A chat bot that mimics a role of a friend to talk about favorite-food-related topics 
 ---
