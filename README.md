@@ -7,16 +7,26 @@ Library used is Ab.jar. also referred to as Alicebot, originally composed by Ric
 You can find more info on the amiml documents at Dr. Wallace's GitHub account https://github.com/drwallace/aiml-en-us-foundation-alice
 ## Important
 Github has a limit of 100mb for uploading files
+``
 You have to import stanford-corenlp-3.9.2-models.jar 
+``
 download from https://stanfordnlp.github.io/CoreNLP/download.html
+``
 
 The needed jar:
-AB.jar
+``
+AB.jar (in the file)
+``
 ejml-0.23.jar (in the file)
+``
 stanford-corenlp-3.9.2.jar (in the file)
+``
 stanford-corenlp-3.9.2-javadoc.jar (in the file)
+``
 stanford-corenlp-3.9.2-sources.jar (in the file)
+``
 stanford-corenlp-3.9.2-models.jar (need download)
+``
 ## Quick Start
 
 ### Requirements and Installation
