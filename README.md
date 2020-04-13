@@ -94,8 +94,7 @@ Robot : No I am wide awake and ready for more.
 
 The open source AIML from Dr. Wallace handles almost all conversations. We used it so that if a user is off topic or an unexpected users' input shows up, the chatbot makes sure conversations flow seamlessly.
 
-
-	A dictionary is introduced in the project for pattern matching so that when potential spelling mistakes occur, they are handled before being interpreted by the chatbot.
+A dictionary is introduced in the project for pattern matching so that when potential spelling mistakes occur, they are handled before being interpreted by the chatbot.
 Snippet:
 YOU ->:Do you lik to sing
 Corrected Text->:Do you like  to sing
