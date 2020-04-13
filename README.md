@@ -38,7 +38,7 @@ Run ChatBot User.java to start your conversation with the chatbot.
 
 Let's run file named Chatbot.java in src/main/java, you will see the following
 ``
-Human:
+YOU:
 ``
 
 Type in words to communicate with the robot.
@@ -54,14 +54,17 @@ https://howtodoinjava.com/ai/java-aiml-chatbot-example/
 
 
 The chatbot we built have 2 general topics, namely food and hobby. They are implemented using AIML,which is as same as A2.
+```
 Snippet:YOU ->:Do you like to sing
 Corrected Text->:Do you like to sing
 YOUR Sentiment: neutral
 Robot : Yes, I love to sing. I would like to be a professional singer one day.
-
+```
 For the question of “add a feature that enables your agent to give at least 5 different 
 reasonable responses when the user enters something outside the two topics,”since the chatbot is able to handle almost every topics, it is not necessary to give at least 5 different reasonable responses specifically. 
 Snippet: 
+
+```
 YOU ->:You are out of topic
 Corrected Text->:You are out of topics 
 YOUR Sentiment: neutral
@@ -82,12 +85,11 @@ Corrected Text->:Are you nervous?
 YOUR Sentiment: neutral
 Robot : I am calm.
 
-
 YOU ->:are you tired
 Corrected Text->:are you tired
 YOUR Sentiment: negative->: I am sorry!
 Robot : No I am wide awake and ready for more.
-
+```
 
  We built the GUI using methods extended from JFrame. Recent history is viewable and a scroll bar is added to allow for long conversations. The GUI enable the user to type into a nicer interface and  view a recent history of the conversation. 
 
@@ -102,19 +104,24 @@ YOUR Sentiment: neutral
 Robot : Yes, I love to sing. I would like to be a professional singer one day.
 
 
-The language toolkit we used in the chatbot for sentiment-detection is Stanford NLP core. So far, we can only respond specifically to the sentiment. The chatbot would give a feedback according to different sentiments. For example, if the sentiment is negative, the chatbot would output "negative->: I am sorry!."
+The language toolkit we used in the chatbot for sentiment-detection is Stanford NLP core. So far, we can only respond specifically to the sentiment. The chatbot would give a feedback according to different sentiments. For example, if the sentiment is negative, the chatbot would output
+``
+negative->: I am sorry!.
+``
  We cannot adjust the response very naturally. Here is the url: https://stanfordnlp.github.io/CoreNLP/download.html
 Snippet:
+```
 YOU ->:I feel sad
 Corrected Text->:I feel sad
 YOUR Sentiment: negative->: I am sorry!
 Robot : What are you sad about?
-
+```
 
 
 
 The ChatBot.java is modified from the test code of A2. It is rewritten to have functions built in with sockets so that it can act either as a server or as a client. It is able to have a conversation with another chatbot.
 snippet:
+```
 public ChatBot(Socket s) {// these two constructors allows initializations for client or server 
  this(); 
  this.s = s; 
@@ -131,3 +138,4 @@ public ChatBot(Socket s) {// these two constructors allows initializations for c
  e.printStackTrace(); 
  } 
    }
+```
